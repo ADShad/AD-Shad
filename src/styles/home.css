@@ -1,0 +1,25 @@
+/* Home.css */
+
+.home-container {
+    padding: 6rem 0;
+    text-align: center;
+    background-color: #1d3557;
+    color: #ffffff;
+  }
+  
+  .content-container {
+    width: 100%;
+    max-width: 7xl;
+    margin: 0 auto;
+  }
+  
+  .text-primary {
+    color: #3b71ca;
+  }
+  
+  .shadow-md {
+    box-shadow: 0 4px 9px -4px rgba(59, 113, 202, 0.3), 0 4px 18px 0 rgba(59, 113, 202, 0.2);
+  }
+  
+
+  
