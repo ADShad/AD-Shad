@@ -26,14 +26,14 @@ const Contact = () => {
 
         <div className="max-w-lg lg:my-0 lg:mx-auto bg-gray-200 rounded-md p-7 m-4">
           <form
-            className="w-full"
             name="contact"
             method="POST"
             action="/"
             data-netlify="true"
+            data-netlify-honeypot="bot-field"
             onSubmit={handleSubmit}
           >
-            <input type="hidden" name="contact" value="contact" />
+            <input type="hidden" name="form-name" value="contact" />
 
             {/* -------------name---------- */}
             <div className="flex flex-wrap -mx-3 mb-3">
