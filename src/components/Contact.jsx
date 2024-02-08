@@ -20,10 +20,10 @@ const Contact = () => {
             name="contact"
             method="POST"
             action="/"
-            netlify
+            data-netlify="true"
             onSubmit={handleSubmit}
           >
-            <input type="hidden" name="form-name" value="name_of_my_form" />
+            <input type="hidden" name="contact" value="contact" />
 
             {/* -------------name---------- */}
             <div className="flex flex-wrap -mx-3 mb-3">
