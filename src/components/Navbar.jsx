@@ -39,7 +39,7 @@ export default function Navbar() {
       <button className="bg-[#00c5f9] text-[#fdfbfb] border-[#e94452] rounded-full lg:py-2.5 lg:px-3.5 py-2 px-3 ">
         <div className="flex justify-center align-middle">
           <FaPhoneAlt className="mt-[5px]" />
-          <a className="mx-2 " href="tel:+919582112962">
+          <a className="mx-2 " href="tel:+916206926949">
             +91 6206926949
           </a>
         </div>
