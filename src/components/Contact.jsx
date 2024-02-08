@@ -1,6 +1,7 @@
 const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
+    window.location.href = "https://adshad.in/";
   };
 
   return (
@@ -16,13 +17,14 @@ const Contact = () => {
         <div className="max-w-lg lg:my-0 lg:mx-auto bg-gray-200 rounded-md p-7 m-4">
           <form
             className="w-full"
-            type="hidden"
             name="contact"
             method="POST"
             action="/"
             netlify
             onSubmit={handleSubmit}
           >
+            <input type="hidden" name="form-name" value="name_of_my_form" />
+
             {/* -------------name---------- */}
             <div className="flex flex-wrap -mx-3 mb-3">
               <div className="w-full px-3">
