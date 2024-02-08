@@ -50,6 +50,7 @@ const Contact = () => {
                   type="text"
                   name="name" // Add name attribute
                   placeholder="We would love to connect with you!"
+                  required
                 />
               </div>
             </div>
@@ -68,6 +69,7 @@ const Contact = () => {
                   type="email"
                   name="email" // Add name attribute
                   placeholder="Enter your Email"
+                  required
                 />
               </div>
             </div>
@@ -86,6 +88,7 @@ const Contact = () => {
                   type="tel"
                   name="contactNumber" // Add name attribute
                   placeholder="Enter your Contact Number"
+                  required
                 />
               </div>
             </div>
