@@ -1,7 +1,17 @@
 const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
-    window.location.href = "https://adshad.in/";
+    const form = event.target;
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(new FormData(form)).toString(),
+    })
+      .then(() => {
+        alert("Form submitted successfully!");
+        form.reset(); // Optional: Reset the form after successful submission
+      })
+      .catch((error) => alert("Error submitting form: " + error));
   };
 
   return (
