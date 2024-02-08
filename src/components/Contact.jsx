@@ -10,7 +10,13 @@ const Contact = () => {
         </p>
 
         <div className="max-w-lg lg:my-0 lg:mx-auto bg-gray-200 rounded-md p-7 m-4">
-          <form className="w-full" name="contact" method="POST" netlify>
+          <form
+            className="w-full"
+            name="contact"
+            method="POST"
+            action="/"
+            netlify
+          >
             {/* -------------name---------- */}
             <div className="flex flex-wrap -mx-3 mb-3">
               <div className="w-full px-3">
@@ -66,7 +72,10 @@ const Contact = () => {
               </div>
             </div>
             <div className="w-full mx-auto my-0 flex justify-center">
-              <button className="bg-[#00c5f9] px-10 py-3 rounded-md text-gray-200 tracking-wider">
+              <button
+                className="bg-[#00c5f9] px-10 py-3 rounded-md text-gray-200 tracking-wider"
+                type="submit"
+              >
                 Submit
               </button>
             </div>
