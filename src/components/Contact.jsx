@@ -1,4 +1,8 @@
 const Contact = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <div id="Contact" className=" py-8 lg:py-16 w-full">
       <div className="container mx-auto">
@@ -12,6 +16,7 @@ const Contact = () => {
         <div className="max-w-lg lg:my-0 lg:mx-auto bg-gray-200 rounded-md p-7 m-4">
           <form
             className="w-full"
+            type="hidden"
             name="contact"
             method="POST"
             action="/"
