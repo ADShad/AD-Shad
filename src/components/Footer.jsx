@@ -46,7 +46,6 @@ const Footer = () => {
           <h6 className="text-lg font-bold mb-4">Contact</h6>
           <p>Ramesh Nagar, New Delhi - 110015, India</p>
           <p> info@adshad.in</p>
-          <p>+91 9582112962</p>
           <p>+91 6206926949</p>
         </div>
       </section>
